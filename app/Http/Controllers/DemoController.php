@@ -40,6 +40,6 @@ class DemoController extends Controller
             'name' => $name
         );
         //返回数据，返回数据用统一返回方法返回
-        return responseApi(1, '请求失败', $data);
+        return responseApi(1, '请求成功', $data);
     }
 }
